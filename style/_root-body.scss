@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100dvw;
+  background: url('./../public/images/bg-pattern-desktop.svg');
+  font-family: $font-family-josefin;
+  font-size: $font-size-16;
+}
