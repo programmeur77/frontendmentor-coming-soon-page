@@ -11,5 +11,59 @@
     <link rel="stylesheet" href="public/style/style.css" />
     <title>Frontendmentor | Coming soon</title>
   </head>
-  <body></body>
+  <body>
+    <div class="coming-soon-container">
+      <div class="coming-soon__content">
+        <img
+          src="./public/images/logo.svg"
+          alt="Base apparel logo"
+          class="coming-soon__logo"
+        />
+
+        <h1 class="coming-soon__title">
+          <span class="coming-soon__title--pink">We're</span> coming soon
+        </h1>
+
+        <p class="coming-soon__text-content">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <form action="post" class="coming-soon__subscribe-form">
+          <input
+            type="text"
+            class="coming-soon-form__email-input"
+            placeholder="Email address"
+          />
+          <img
+            src="./public/images/icon-error.svg"
+            alt="Error icon"
+            class="coming-soon-form__error-icon"
+          />
+          <p class="coming-soon-form__error-txt">Error</p>
+          <button class="coming-soon-form__submit-btn">
+            <img
+              src="./public/images/icon-arrow.svg"
+              alt="Submit icon arrow"
+              class="coming-soon-form__arrow-icon"
+            />
+          </button>
+        </form>
+      </div>
+
+      <picture class="coming-soon__responsive-illustration">
+        <source
+          media="(max-width: 1000px)"
+          srcset="./public/images/hero-mobile.jpg"
+          class="coming-soon__mobile-illustration"
+        />
+        <img
+          src="./public/images/hero-desktop.jpg"
+          alt="Desktop illustration image"
+          class="coming-soon__desktop-illustration"
+        />
+      </picture>
+    </div>
+  </body>
 </html>
