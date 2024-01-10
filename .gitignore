@@ -4,3 +4,7 @@
 # Node config files and folders
 package-lock.json
 node_modules
+
+# SASS files and folders 
+public/style/style.css.map
+
